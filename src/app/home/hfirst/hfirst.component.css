@@ -10,7 +10,7 @@
   background-size: cover;
   position: relative;
   overflow: hidden;
-  padding-top: 80px; /* ✅ ADDED LINE */
+  /* padding-top: 80px;  */
 }
 
 .con::before {
@@ -40,6 +40,7 @@
   color: white;
   overflow-y: auto;
   scrollbar-width: none;
+    margin-top: 80px;
 }
 
 h1 {
@@ -48,6 +49,7 @@ h1 {
   padding-top: 64px; /* Height of your fixed header */
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.85);
+  
  
 }
 
