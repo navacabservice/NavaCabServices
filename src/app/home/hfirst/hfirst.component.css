@@ -38,6 +38,7 @@
   text-align: center;
   color: white;
   overflow-y: auto;
+  scrollbar-width: none;
 }
 
 h1 {
