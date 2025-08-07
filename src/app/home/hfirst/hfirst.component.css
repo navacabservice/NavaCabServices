@@ -10,6 +10,7 @@
   background-size: cover;
   position: relative;
   overflow: hidden;
+  padding-top: 80px; /* ✅ ADDED LINE */
 }
 
 .con::before {
