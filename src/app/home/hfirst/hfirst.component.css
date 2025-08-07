@@ -10,7 +10,10 @@
   background-size: cover;
   position: relative;
   overflow: hidden;
-  /* padding-top: 80px;  */
+
+  display: flex;             /* Centering child (.text) */
+  align-items: center;
+  justify-content: center;
 }
 
 .con::before {
@@ -27,7 +30,6 @@
 .text {
   position: relative;
   width: 45%;
-  height: 100%;
   background-color: rgba(1, 1, 92, 0.6);
   display: flex;
   justify-content: center;
@@ -40,17 +42,17 @@
   color: white;
   overflow-y: auto;
   scrollbar-width: none;
-    margin-top: 80px;
+
+  height: auto;       /* ✅ Fix height overflow */
+  margin-top: 0;      /* ✅ Prevent scroll issue */
 }
 
 h1 {
- font-size: 3.2vw;
+  font-size: 3.2vw;
   margin: 0 0 1rem 0;
-  padding-top: 64px; /* Height of your fixed header */
+  padding-top: 0;      /* ✅ Remove if no fixed navbar */
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.85);
-  
- 
 }
 
 h4 {
