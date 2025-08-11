@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-airport-taxi',
- standalone:false,
-  templateUrl: './airport-taxi.component.html',
-  styleUrl: './airport-taxi.component.css'
+  selector: 'app-a-ow',
+  standalone:false,
+  templateUrl: './a-ow.component.html',
+  styleUrl: './a-ow.component.css'
 })
-export class AirportTaxiComponent {
+export class AOwComponent {
  pickup = '';
  
   date = '';
@@ -17,9 +17,8 @@ export class AirportTaxiComponent {
   trip='Pick up from Airport';
   vehicle='Sedan – Toyota Etios, Maruti Dzire';
   Terminal='Terminal 1'
-
- submitForm() {
-  const adminPhone = '919964758999'; // Replace with your WhatsApp number
+  submitForm(){
+     const adminPhone = '919964758999'; // Replace with your WhatsApp number
 
   let message = `*Airport Taxi Enquiry*(${this.isRoundTrip ? 'Round Trip' : 'One Way'})\n`;
 
@@ -63,4 +62,5 @@ export class AirportTaxiComponent {
   this.isRoundTrip = false;
 }
 isRoundTrip:boolean=false
-}
+  }
+
