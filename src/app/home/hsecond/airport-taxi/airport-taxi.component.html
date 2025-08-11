@@ -6,7 +6,7 @@
 </div>
 
 <form (ngSubmit)="submitForm()" #rideForm="ngForm">
-  <h2>{{ isRoundTrip ? 'Airtport Transfer' : 'One Way' }}</h2>
+  <h2>{{ isRoundTrip ? 'Airport Transfer' : 'One Way' }}</h2>
 
   <!-- Trip selection only for One Way -->
   <div *ngIf="!isRoundTrip">
