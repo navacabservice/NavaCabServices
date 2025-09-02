@@ -33,7 +33,7 @@
   align-items: center;
   flex-direction: column;
   z-index: 2;
-  padding: 140px 1rem 2rem; 
+  padding: 8vh 1rem 2rem;
   box-sizing: border-box;
   text-align: center;
   color: white;
@@ -42,13 +42,13 @@
 }
 
 h1 {
-  font-size: 3.2vw;
+ font-size: 3.2vw;
   margin: 0 0 1rem 0;
-  padding-top: 15px; 
+  padding-top: 64px; /* Height of your fixed header */
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.85);
+ 
 }
-
 
 h4 {
   font-size: 1.5vw;
