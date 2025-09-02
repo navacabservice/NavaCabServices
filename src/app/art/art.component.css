@@ -3,7 +3,7 @@ form {
   margin: 2rem auto;
   padding: 2rem;
   border-radius: 12px;
-  background: linear-gradient(135deg, #cfd9df, #e2ebf0); /* Light grey to soft blue */
+  background: linear-gradient(135deg, #cfd9df, #e2ebf0);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   font-family: 'Segoe UI', sans-serif;
 }
@@ -89,7 +89,7 @@ select:focus {
 .trip-type button {
   padding: 10px 18px;
   border: none;
-  background:black; /* 🟡 Yellow base */
+  background:black; 
   color: #fbc02d;
   cursor: pointer;
   border-radius: 5px;
@@ -99,7 +99,7 @@ select:focus {
 }
 
 .trip-type button.active {
-  background: #fbc02d; /* 🟡 Darker yellow when active */
+  background: #fbc02d; 
   color: black;
 }
 /* Container for each stop input row */

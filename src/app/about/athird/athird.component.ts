@@ -10,6 +10,9 @@ import { AboutData } from '../../aboutData';
 })
 export class AthirdComponent {
   @Output() open=new EventEmitter()
+  openPopUp(){
+this.open.emit()
+}
   data:any=AboutData
   constructor(private router:Router){}
 goto(id:string){
@@ -18,7 +21,5 @@ goto(id:string){
 goDettails(id:string){
   this.router.navigate([`/aDetail/${id}`])
 }
-openPopUp(){
-this.open.emit()
-}
+
 }

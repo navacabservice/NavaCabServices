@@ -18,7 +18,7 @@ export class AOwComponent {
   vehicle='Sedan – Toyota Etios, Maruti Dzire';
   Terminal='Terminal 1'
   submitForm(){
-     const adminPhone = '919964758999'; // Replace with your WhatsApp number
+     const adminPhone = '919964758999'; 
 
   let message = `*Airport Taxi Enquiry*(${this.isRoundTrip ? 'Round Trip' : 'One Way'})\n`;
 

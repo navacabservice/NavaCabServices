@@ -14,7 +14,7 @@
   height: auto;
   display: block;
   object-fit: cover;
-  max-height: 600px; /* optional: limit height on large screens */
+  max-height: 600px; 
 }
 
 .con .text {

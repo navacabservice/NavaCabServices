@@ -18,7 +18,7 @@
   margin-bottom: 2rem;
 }
 
-/* FLEX container for con1 and con2 */
+
 .con1,
 .con2 {
   display: flex;
@@ -30,11 +30,11 @@
 
 .con1 div,
 .con2 div {
-  background: rgba(255, 255, 255, 0.15); /* translucent white */
+  background: rgba(255, 255, 255, 0.15); 
   border-radius: 20px;
   padding: 20px;
   margin: 10px;
-  backdrop-filter: blur(10px); /* the blur effect */
+  backdrop-filter: blur(10px); 
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -77,14 +77,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* text-shadow: 0 0 5px #e3fa11; */
-  background-clip: text; /* for newer browsers */
+  background-clip: text; 
   color: transparent;
   line-height: 1.4;
 }
 .con1 button,
 .con2 button{
-     background-color: #FFD700; /* bright yellow */
-  color: #000; /* black text for contrast */
+     background-color: #FFD700; 
+  color: #000;
   border: none;
   padding: 0.6rem 1.2rem;
   font-size: 1rem;
@@ -96,7 +96,7 @@
 }
 .con1 button:hover,
 .con2 button:hover{
-    background-color: #ffc800; /* slightly darker yellow on hover */
+    background-color: #ffc800; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -115,125 +115,5 @@
   button {
     font-size: 0.9rem;
     padding: 0.5rem 1rem;
-  }
-}
-
-.strip {
-  display: flex;
-  gap: 20px;
-  overflow-x: scroll;
-  scrollbar-width: none;
-  padding: 10px;
-  justify-content: space-evenly; /* ensures natural left alignment */
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-}
-
-.strip > div {
-  width: 200px;
-  height: 200px;
-  background-color: #f0f0f0;
-  padding: 15px;
-  border-radius: 10px;
-  flex-shrink: 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column; /* stack image + h1 vertically */
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  cursor: pointer;
-  scroll-snap-align: start;
-  transition: transform 0.2s ease;
-}
-
-.strip > div:hover {
-  transform: scale(1.05);
-}
-
-.strip > div img {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
-  margin-bottom: 10px;
-}
-
-.strip > div h1 {
-  font-size: 16px;
-  margin: 0;
-  word-wrap: break-word;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 3; /* show max 3 lines */
-  -webkit-box-orient: vertical;
-  color: #333;
-}
-.strap {
-  background: linear-gradient(to right, rgb(25, 110, 238), rgb(161, 225, 241));
-  
-  padding: 30px 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  margin: 20px 0;
-}
-
-.strap h3 {
-  font-size: 30px;
-  font-weight: 800;
-  margin-bottom: 20px;
-  color: #ecc455;
-}
-
-.strap > div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.strap p {
-  flex: 1 1 70%;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.6;
-  margin: 0;
-  color: #1a1e24;
-}
-
-.strap button {
-  flex: 0 1 auto;
-  padding: 12px 24px;
-  background-color: #ffc107;
-  color: #222;
-  border: none;
-  border-radius: 8px;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  white-space: nowrap;
-}
-
-.strap button:hover {
-  background-color: #e0a800;
-}
-
-/* ✅ Responsive */
-@media (max-width: 768px) {
-  .strap > div {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .strap p,
-  .strap button {
-    flex: 1 1 100%;
-  }
-
-  .strap button {
-    margin-top: 10px;
   }
 }

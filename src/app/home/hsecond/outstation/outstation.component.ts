@@ -20,7 +20,7 @@ export class OutstationComponent {
   vehicle='Sedan – Toyota Etios, Maruti Dzire'
 
  submitForm() {
-  const adminPhone = '919964758999'; // Replace with your WhatsApp number
+  const adminPhone = '919964758999'; 
 
   let message = `*Outstation Cab Enquiry* (${this.isRoundTrip ? 'Round Trip' : 'One Way'})\n`;
   message += ` *Pickup City:* ${this.pickupCity}\n`;
@@ -38,13 +38,13 @@ export class OutstationComponent {
   const encodedMessage = encodeURIComponent(message);
   const whatsappUrl = `https://wa.me/${adminPhone}?text=${encodedMessage}`;
 
-  // ✅ Alert user
+ 
   alert('Form submitted successfully. Redirecting to WhatsApp.');
 
-  // ✅ Open WhatsApp
+  // Open WhatsApp
   window.open(whatsappUrl, '_blank');
 
-  // ✅ Clear form
+  //  Clear form
   this.pickupCity = '';
   this.dropCity = '';
   this.pickupDate = '';

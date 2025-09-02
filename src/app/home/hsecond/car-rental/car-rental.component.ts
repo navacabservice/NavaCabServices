@@ -26,7 +26,7 @@ rentalPackage='4hrs 40kms'
 *Contact*: ${this.phone}
 *selected Vehicle*: ${this.vehicle}`;
 
-    const adminPhone = '919964758999'; // Your admin WhatsApp number
+    const adminPhone = '919964758999'; 
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${adminPhone}?text=${encodedMessage}`;
 

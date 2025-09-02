@@ -4,8 +4,7 @@
   justify-content: center;
   gap: 25px;
   padding: 2rem;
-  background: linear-gradient(to right, #0f172a, #1e293b); /* Premium Blue BG */
-}
+  background: linear-gradient(to right, #0f172a, #1e293b);}
 
 .con > div {
   position: relative;
@@ -182,14 +181,14 @@
 .card.wide img {
   margin-top: 15px;
   width: 100%;
-  max-width: 350px; /* You can increase/decrease this */
+  max-width: 350px;
   height: auto;
   object-fit: contain;
 }
 .card.wide.wider img {
   margin-top: 15px;
   width: 100%;
-  max-width: 700px; /* You can increase/decrease this */
+  max-width: 700px; 
   height: auto;
   object-fit: contain;
 }

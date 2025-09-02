@@ -27,7 +27,7 @@ export class CityRidesComponent {
 *Name:*${this.name}
 *Contact*: ${this.phone}`;
 
-  const adminPhone = '919964758999'; // ✅ No '+'
+  const adminPhone = '919964758999';
   const encodedMessage = encodeURIComponent(message);
   const whatsappUrl = `https://wa.me/${adminPhone}?text=${encodedMessage}`;
 

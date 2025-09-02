@@ -3,7 +3,7 @@ form {
   margin: 2rem auto;
   padding: 2rem;
   border-radius: 12px;
-  background: linear-gradient(135deg, #ffe0b2, #d1c4e9); /* Peach to lavender gradient */
+  background: linear-gradient(135deg, #ffe0b2, #d1c4e9);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   font-family: 'Segoe UI', sans-serif;
 }

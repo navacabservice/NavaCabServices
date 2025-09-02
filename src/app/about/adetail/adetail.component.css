@@ -129,11 +129,11 @@
 
 .con1 div,
 .con2 div {
-  background: rgba(255, 255, 255, 0.15); /* translucent white */
+  background: rgba(255, 255, 255, 0.15); 
   border-radius: 20px;
   padding: 20px;
   margin: 10px;
-  backdrop-filter: blur(10px); /* the blur effect */
+  backdrop-filter: blur(10px); 
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -176,14 +176,14 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* text-shadow: 0 0 5px #e3fa11; */
-  background-clip: text; /* for newer browsers */
+  background-clip: text; 
   color: transparent;
   line-height: 1.4;
 }
 .con1 button,
 .con2 button{
-     background-color: #FFD700; /* bright yellow */
-  color: #000; /* black text for contrast */
+     background-color: #FFD700; 
+  color: #000; 
   border: none;
   padding: 0.6rem 1.2rem;
   font-size: 1rem;
@@ -195,7 +195,7 @@
 }
 .con1 button:hover,
 .con2 button:hover{
-    background-color: #ffc800; /* slightly darker yellow on hover */
+    background-color: #ffc800;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
